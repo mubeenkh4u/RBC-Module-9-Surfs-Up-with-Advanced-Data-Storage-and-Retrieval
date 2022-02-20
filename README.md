@@ -7,11 +7,11 @@ While visiting hawaii I developed an interest in starting my own surfing shop "S
 ## Purpose:
 
 The purpose of this project is to analyse the Weather and Precipitation data for the island of Oahu in Hawaii. We used the following for our analysis:
-* SQLite file (for the Database stored locally).
-* SQLAlchemy (for writing SQL queries and ORM mapping of database into tables in Python to reflect our Database).
-* Numpy (for unraveling the data retrieved by the SQL queries and converting it into readable lists).
-* Pandas (for converting the lists in numpy to Dataframes).
-* Datetime (for entering our desired dates for SQL queries wrapped in SQLAlchemy).
+* `SQLite` file (for the Database stored locally).
+* `SQLAlchemy` (for writing SQL queries and ORM mapping of database into tables in Python to reflect our Database).
+* `Numpy` (for unraveling the data retrieved by the SQL queries and converting it into readable lists).
+* `Pandas` (for converting the lists in numpy to Dataframes).
+* `Datetime` (for entering our desired dates for SQL queries wrapped in SQLAlchemy).
 
 ## Files Used:
 
@@ -21,17 +21,21 @@ The purpose of this project is to analyse the Weather and Precipitation data for
 
 After pulling the weather and precipitation data from our database for a one year time frame. We focused our efforts on the weather activity from August 23, 2016 to August 23, 2017. Based of our queries we can see that we had a total count of 2021 entries for the given timeframe.
 
-![prev_year](https://github.com/mubeenkh4u/RBC-Module-9-Surfs-Up-with-Advanced-Data-Storage-and-Retrieval/blob/main/Resources/prev_year.png)
+<img src="https://github.com/mubeenkh4u/RBC-Module-9-Surfs-Up-with-Advanced-Data-Storage-and-Retrieval/blob/main/Resources/prev_year.png">
 
-![monthly_temp_data.png](https://github.com/mubeenkh4u/RBC-Module-9-Surfs-Up-with-Advanced-Data-Storage-and-Retrieval/blob/main/Resources/monthly_temp_data.png)
+<img src="https://github.com/mubeenkh4u/RBC-Module-9-Surfs-Up-with-Advanced-Data-Storage-and-Retrieval/blob/main/Resources/monthly_temp_data.png">
 
-![prev_year_precipitation.png](https://github.com/mubeenkh4u/RBC-Module-9-Surfs-Up-with-Advanced-Data-Storage-and-Retrieval/blob/main/Resources/Prev_Year_Precipitation.png)
+<img src="https://github.com/mubeenkh4u/RBC-Module-9-Surfs-Up-with-Advanced-Data-Storage-and-Retrieval/blob/main/Resources/Prev_Year_Precipitation.png">
 
 Finally we ended up looking at the June and Decemeber dataset as shown below:
-June_Temps_Describe
-December_Temps_Describe
 
-We notice that both of them have very similar values with differences mostly in the total number of observation counts (1700 vs 1517) and minimum (64 vs 56) temperature values.
+<img src="https://github.com/mubeenkh4u/RBC-Module-9-Surfs-Up-with-Advanced-Data-Storage-and-Retrieval/blob/main/Resources/June_Temps.png">
+<img src="https://github.com/mubeenkh4u/RBC-Module-9-Surfs-Up-with-Advanced-Data-Storage-and-Retrieval/blob/main/Resources/December_Temps.png">
+
+<img src="https://github.com/mubeenkh4u/RBC-Module-9-Surfs-Up-with-Advanced-Data-Storage-and-Retrieval/blob/main/Resources/June_Temps_Describe.png">
+<img src="https://github.com/mubeenkh4u/RBC-Module-9-Surfs-Up-with-Advanced-Data-Storage-and-Retrieval/blob/main/Resources/December_Temps_Describe.png">
+
+We notice that both of them have very similar values with differences mostly in the total number of observation `counts` (1700 vs 1517) and `minimum` (64 vs 56) temperature values.
 
 ## Summary:
 
